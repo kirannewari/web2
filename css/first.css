@@ -31,7 +31,7 @@ z-index: 2;
 }
 
 .bg_img {
-  background-image: url(../img/ranbir-kapoor-with-magic-bus-with-magic-bus-participants-1flywithvip-1200x900.jpeg);
+  background-image: url(../img/h1.jpeg);
   height: 400px;
   -webkit-filter: grayscale(60%);
 
@@ -87,7 +87,7 @@ z-index: 2;
 
 .flexx {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   font-family: "Roboto Slab", serif;
 }

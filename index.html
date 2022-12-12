@@ -19,68 +19,60 @@
 </head>
 
 <body>
-    <section id="nav">
-        <div class="">
-            <div class="bg_img_box">
-                <nav class="navbar navbar-expand-lg  navbar1 position-fixed text-light container-fluid">
-                    <div class="container mx-5">
-                        <a class="navbar-brand h1 text-light" href="#">Demo website</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-light">
-                                <li class="nav-item">
-                                    <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+    <header>
+        <nav class="navbar navbar-expand-lg  navbar1 position-fixed  container-fluid">
+            <div class="container mx-5">
+                <a class="navbar-brand h1 text-light" href="#">Demo website</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-light">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-light" href="#">Link</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle text-light" href="#" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Dropdown
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item text-light" href="#">Something else here</a></li>
-                                    </ul>
-                                </li>
-
+                                <li><a class="dropdown-item text-light" href="#">Something else here</a></li>
                             </ul>
-                            <form class="d-flex" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-outline-dark" type="submit">Search</button>
-                            </form>
-                        </div>
-                    </div>
-                </nav>
-                <!-- <img src="./img/ranbir-kapoor-with-magic-bus-with-magic-bus-participants-1flywithvip-1200x900.jpeg" style="width: 100%;height: 500px;"> -->
+                        </li>
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-dark" type="submit">Search</button>
+                    </form>
+                </div>
             </div>
-        </div>
-    </section>
-    <section id="slide_img">
-        <div class="position-relative">
-            <div class="bg_img">
-                <h1 class="headline position-absolute text-center" style="margin-top: 50px;">Welcome to Laxmi Niwas Hotel</h1>
-            </div>
+        </nav>
+    </header>
+    <section id="welcome_img">
+        <div class="bg_img">
+            <h1 class="headline" style="margin-top: 50px;">Welcome to Laxmi Niwas Hotel</h1>
         </div>
     </section>
     <section id="mid_img">
-        <div class="container-fluid py-5 p-3" style="background-color:rgb(155, 204, 247);">
-            <div class="heading my-5 text-center">
+        <div class="py-5 p-3" style="background-color:rgb(155, 204, 247);">
+            <div class="heading my-3 text-center">
                 <h1 class="h1">Heading 1</h1>
             </div>
-
-            <div class="flexx my-5">
+            <div class="flexx my-5 container">
                 <div>
-                    <div class=" mx-3 my-3">
+                    <div class="my-3">
                         <div class="d-flex">
                             <div class="fle mx-3">
                                 <b class="fle">hello</b><br>
@@ -90,7 +82,7 @@
                             <img src="./img/images.png" style="height: 50px;">
                         </div>
                     </div>
-                    <div class="mx-3 my-3">
+                    <div class="my-3">
                         <div class="d-flex">
                             <div class="fle mx-3">
                                 <b class="fle">hello</b><br>
@@ -100,7 +92,7 @@
                             <img src="./img/images.png" style="height: 50px;">
                         </div>
                     </div>
-                    <div class="mx-3 my-3">
+                    <div class="my-3">
                         <div class="d-flex">
                             <div class="fle mx-3">
                                 <b class="fle">hello</b><br>
@@ -114,7 +106,7 @@
                 <div style="background-image: url(./img/h2.jpeg);overflow: hidden;width: 600px;height: 300px;"
                     class="mtb"></div>
                 <div>
-                    <div class=" mx-3 my-3">
+                    <div class="my-3">
                         <div class="d-flex">
                             <img src="./img/images.png" style="height: 50px;width: 50px;">
                             <div class="mx-3">
@@ -123,7 +115,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class=" mx-3 my-3">
+                    <div class="my-3">
                         <div class="d-flex">
                             <img src="./img/images.png" style="height: 50px;width: 50px;">
                             <div class="mx-3">
@@ -132,7 +124,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class=" mx-3 my-3">
+                    <div class="my-3">
                         <div class="d-flex">
                             <img src="./img/images.png" style="height: 50px;width: 50px;">
                             <div class="mx-3">
@@ -143,12 +135,11 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
     <section id="two_card">
         <div class="container my-5 p-3">
-            <div class="heading my-5 text-center">
+            <div class=" my-3 text-center">
                 <h1 class="h1">Heading 2</h1>
             </div>
 
@@ -230,7 +221,7 @@
     </section>
     <section id="round_square_card">
         <div class="container my-5 p-3">
-            <div class="heading my-5 text-center">
+            <div class="my-3 text-center">
                 <h1 class="h1">Heading 3</h1>
             </div>
             <div class="flexx my-5">
@@ -266,7 +257,7 @@
     </section>
     <section id="cards">
         <div class="container my-5 p-3">
-            <div class="heading my-5 text-center">
+            <div class="my-3 text-center">
                 <h1 class="h1">Heading 4</h1>
             </div>
 
@@ -315,7 +306,7 @@
     </section>
     <section id="text_on_img">
         <div class="container my-5 p-3">
-            <div class="heading my-5 text-center">
+            <div class="my-3 text-center">
                 <h1 class="h1">Heading 5</h1>
             </div>
 
@@ -349,8 +340,8 @@
         </div>
         </div>
     </section>
-    <section id="footer">
-        <div class="container-fluid py-5 p-3" style="background-color:rgb(155, 204, 247) ;height:auto">
+    <footer>
+        <div class="py-5 p-3" style="background-color:rgb(155, 204, 247) ;height:auto">
             <div class="flex2 ">
                 <div class="mx-5"><img src="./img/images.png"></div>
                 <div class="mx-5 mtb"><b>sec1</b><br>
@@ -368,7 +359,7 @@
 
             </div>
         </div>
-    </section>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
