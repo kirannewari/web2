@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "hellix";
+  /* src: url(../font/Hellix-Bold.ttf); */
+  /* src: url(../font/Hellix-Black.ttf); */
+  src: url(../font/CircularAir-Light.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+b{
+  font-family: 'hellix';
+  font-weight: 700;
+  font-style: normal;
+}
+.h2 {
+  font-family: 'hellix';
+  font-size: 20px !important;
+  font-weight: 700 !important;
+}
+.h33{
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.pff{
+  position: fixed;
+  z-index: 2000;
+  background-color: white; 
+  width: 100%;
+}
+.navbar {
+  font-family: 'hellix';
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 0px !important;
+  transition: all 0.2s ease-in-out;
+  height: auto;
+  color: black;
+}
+.head{
+  border-bottom: none;
+}
+.head:hover{
+ border-bottom: 0.5px solid rgb(195, 193, 193);
+}
+.aa {
+  font-weight: 700 !important;
+  font-family: 'hellix';
+  font-size: 15px !important;
+}
+.green{
+  color: rgb(0, 0, 0);
+}
+.green:hover{
+  color: green;
+  /* border-bottom: 0.5px solid rgb(0, 0, 0); */
+}
+.nogreen{
+  color: rgb(0, 0, 0);
+}
+.nogreen:hover{
+  color: rgb(0, 0, 0);
+}
+.activee {
+  background-color: rgba(12, 86, 205, 0.8);
+}
+.dropdown-menu {
+  width: 700px !important;
+  position: relative;
+  margin-top: 1px;
+  padding: 20px !important;
+  border: none !important;
+  border-radius: 0 0 8px 8px !important;
+  background-color: #fff;
+  box-shadow: 0 32px 32px 0 rgb(14 14 41 / 4%), 0 16px 16px 0 rgb(14 14 41 / 4%),
+    0 8px 8px 0 rgb(14 14 41 / 4%), 0 4px 4px 0 rgb(14 14 41 / 4%),
+    0 2px 2px 0 rgb(14 14 41 / 4%), 0 0 1px 0 rgb(14 14 41 / 24%) !important;
+    z-index: 2000;
+    /* position: fixed !important; */
+}
+.down_i {
+  font-size: 10px;
+  padding: 5px;
+  font-weight: 500;
+}
+
+.icon_list {
+  font-size: 20px;
+  padding: 5px;
+  font-weight: 500;
+  color: rgb(134, 138, 138);
+  background-color: #eff2f1;
+  border-radius: 50%;
+  margin: 10px;
+}
+.text_part {
+  font-family: 'hellix';
+  padding-left: 10px;
+}
+.know {
+  background-color: #fbfbfb;
+  padding: 15px;
+  /* margin: 15px 0px 10px 0px; */
+  border-radius: 10px;
+  width: 650px;
+  border: 0.5px solid rgb(240, 240, 240);
+}
+.mll {
+ /* float: right; */
+ margin-left: 160px;
+}
+.my {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.mt{
+  margin-top: -5px !important;
+}
+.headd{
+  background-color: rgb(235, 238, 238);
+  font-size: 10px;
+  padding: 5px;
+  border-radius: 30%;
+  color: green;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  position: absolute;
+  margin-top: 25px !important;
+}

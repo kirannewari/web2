@@ -15,20 +15,20 @@ p{
 }
 .smalll{
   font-size: 12px;
-
 }
 .mtb {
   margin-left: 10px;
   margin-right: 10px;
 }
-.navbar1 {
+
+/* .navbar1 {
   font-family: "Roboto Slab", serif;
 z-index: 2;
   position: absolute;
  
   color: white;
   background-color: rgb(47, 146, 234);
-}
+} */
 
 .bg_img {
   background-image: url(../img/h1.jpeg);
@@ -152,4 +152,5 @@ font-weight: 700;
   display: flex;
   justify-content: start;
   flex-wrap: wrap;
+  align-items: center;
 }
